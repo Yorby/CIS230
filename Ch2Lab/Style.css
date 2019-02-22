@@ -1,0 +1,52 @@
+body {
+	background: lightcyan;
+	width: 800px;
+	margin: auto;
+}
+
+/*
+	This is a comment
+*/
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+p {
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+div p {
+	color:Blue;
+	background: orange;
+}
+
+.padding-20{
+	padding:20px;
+}
+
+.mybox {
+	display: inline-block;
+	width: 400px;
+	float: left;
+}
+
+#box {
+	background: orange;
+}
+
+#box2 {
+	background: green;
+}
+
+a {
+	color; brown;
+	text-decoration; none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
