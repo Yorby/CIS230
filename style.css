@@ -1,0 +1,63 @@
+/* here we are styling the body*/
+body {
+	background: lightcyan;   /* Set the background to a light bluish color */
+	width: 800px;			 /* Set the body with to 800 pixels */
+	margin: auto;			 /* Set the margin to auto */
+	font-size: 100%; 		 /* this sets the base font size for everything */ 
+}
+
+/* Here we are the header, main, and footer */
+header, main, footer {
+	min-width: 855px;
+}
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+/* the head */
+h1 {
+	color: maroon;
+	text-align: center;
+	font-family: xx-large;
+	float: left;
+	width: 570px
+}
+
+main {
+	background: white;
+}
+
+h2 {
+	font-size: x-large;
+	text-align: center;
+}
+
+h3, h4, h5 {
+	font-size: large;
+	float: left;
+	margin-left: 10px;
+}
+
+/* here we are styling the paragraph */
+p {
+	font-size: large;
+	color: gray;
+	padding: 10px;
+	width: 390px;
+}
+
+header {
+	background: white;
+	overflow: auto;
+} 
+
+header nav {
+	float: right;
+	width: 285px;
+	margin-top: 5px;
+}
+img {
+	margin-left: 546px;
+    margin-top: -600px;
+}
