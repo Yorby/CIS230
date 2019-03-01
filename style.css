@@ -8,7 +8,7 @@ body {
 
 /* Here we are the header, main, and footer */
 header, main, footer {
-	min-width: 855px;
+	width: 855px;
 }
 header .container, main .container, footer .container {
 	max-width: 855px;
