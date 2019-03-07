@@ -26,6 +26,8 @@ header h1 {
 
 main {
 	background: white;
+    float: left;
+    margin-top: 1em;
 }
 
 h2 {
@@ -33,7 +35,10 @@ h2 {
 	text-align: center;
 }
 
-
+ol {
+	width: 50%;
+    float: left;
+}
 /* here we are styling the paragraph */
 p {
 	font-size: large;
