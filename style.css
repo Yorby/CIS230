@@ -16,7 +16,7 @@ header .container, main .container, footer .container {
 }
 
 /* the head */
-h1 {
+header h1 {
 	color: maroon;
 	text-align: center;
 	font-family: xx-large;
@@ -33,11 +33,6 @@ h2 {
 	text-align: center;
 }
 
-h3, h4, h5 {
-	font-size: large;
-	float: left;
-	margin-left: 10px;
-}
 
 /* here we are styling the paragraph */
 p {
@@ -57,7 +52,12 @@ header nav {
 	width: 285px;
 	margin-top: 5px;
 }
-img {
-	margin-left: 546px;
-    margin-top: -600px;
+main img {
+	float: right;
+	width: 285px;
+	
+	/*margin-left: 546px;
+    margin-top: -370px;*/
 }
+
+
