@@ -1,7 +1,7 @@
 /* here we are styling the body*/
 body {
 	background: lightcyan;   /* Set the background to a light bluish color */
-	width: 800px;			 /* Set the body with to 800 pixels */
+	width: 855px;			 /* Set the body with to 800 pixels */
 	margin: auto;			 /* Set the margin to auto */
 	font-size: 100%; 		 /* this sets the base font size for everything */ 
 }
@@ -33,22 +33,28 @@ main {
 h2 {
 	font-size: x-large;
 	text-align: center;
+	
 }
 
 ol {
 	width: 50%;
     float: left;
 }
+main li {
+	font-weight: bold;
+}
 /* here we are styling the paragraph */
-p {
+main p {
 	font-size: large;
 	color: gray;
 	padding: 10px;
 	width: 390px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 header {
-	background: white;
+	background-color: yellow;
 	overflow: auto;
 } 
 
@@ -57,9 +63,60 @@ header nav {
 	width: 285px;
 	margin-top: 5px;
 }
-main img {
+img {
+	width: 333.5px;
 	float: right;
-	width: 285px;
+	height: 327px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+	margin-right: 1em;
+}
+footer {
+	width: 855px;
+	float: left;
+	height: 120px;
+	background-color: yellow;
+
+}
+div .contact {
+	width: 50%;
+    float: left;
+	height: 120px;
+	font-size: 1.17em;
+}
+
+div .sitemap {
+	width: 50%;
+    float: right;
+	height: 120px;
+	font-size: 1.17em;
+}
+h3 {
+    font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ul {
+	    margin-top: 5px;
+}
+
+footer p {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	border-left: 2px;
+	font-size: 20px;
+		
+}
+footer li {
+	margin-top: 12px;
 }
 
 

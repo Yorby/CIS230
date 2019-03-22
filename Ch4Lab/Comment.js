@@ -4,19 +4,25 @@ $( function() {
 	var commentInput = $(".comment-input input");
 	
 	function processCommentInput()
-	{var $new_comment;
-		var commentInput = $(".comment-input input");
-		
-		
+	{
+		var $new_comment;			
 		if ( commentInput.val() !== "")
 		{
 			$new_comment = 
-				$("<p>").text( commentInput.val() );
+				$("<p>").html( commentInput.val() + "<button class='delete'>Delete</button>");
+			$new_comment.hide();
 			$(".comments").append( $new_comment );
+			$new_comment.fadeIn();
 			commentInput.val("");
+			/*event target parentElement to REMOVE*/
+			$(".delete").on("click", function(event){
+				event.target.parentElement.remove();
+			});
 		}
 	} // end processCommentInput()
-	$( commentInput ).on("keypress", function(event) {
+	
+	$( commentInput ).on("keypress", function(event) 
+	{
 		if ( event.keyCode === 13 )
 		{
 			processCommentInput();
