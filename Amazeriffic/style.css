@@ -1,6 +1,6 @@
 /* here we are styling the body*/
 body {
-	background: lightcyan;   /* Set the background to a light bluish color */
+	background: #b2b21b;   /* Set the background to a light bluish color */
 	width: 855px;			 /* Set the body with to 800 pixels */
 	margin: auto;			 /* Set the margin to auto */
 	font-size: 100%; 		 /* this sets the base font size for everything */ 
@@ -27,7 +27,7 @@ header h1 {
 main {
 	background: white;
     float: left;
-    margin-top: 1em;
+    margin-top: 0.2em;
 }
 
 h2 {
@@ -75,48 +75,50 @@ img {
 footer {
 	width: 855px;
 	float: left;
-	height: 120px;
+	height: 180px;
 	background-color: yellow;
-
 }
 div .contact {
 	width: 50%;
     float: left;
-	height: 120px;
+	height: 180px;
 	font-size: 1.17em;
 }
 
 div .sitemap {
 	width: 50%;
     float: right;
-	height: 120px;
+	height: 180px;
 	font-size: 1.17em;
+}
+div .left {
+	float: left;
+}
+div .right {
+	float: right;
+	width: 260px;
 }
 h3 {
     font-weight: bold;
 	margin-bottom: 5px;
 	margin-left: 20px;
 }
-
-h4 {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
 ul {
-	    margin-top: 5px;
+	margin-top: 0px;
 }
-
 footer p {
 	padding: 0px;
 	margin: 0px;
 	margin-left: 20px;
 	border-left: 2px;
-	font-size: 20px;
-		
-}
+	font-size: 20px;	
+}   
 footer li {
-	margin-top: 12px;
+	padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    border-left: 2px;
+    font-size: 20px;
 }
 
 
