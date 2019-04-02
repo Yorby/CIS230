@@ -1,14 +1,15 @@
 /* here we are styling the body*/
+
 body {
-	background: #b2b21b;   /* Set the background to a light bluish color */
-	width: 855px;			 /* Set the body with to 800 pixels */
+	background: white;   /* Set the background to a white color */
 	margin: auto;			 /* Set the margin to auto */
 	font-size: 100%; 		 /* this sets the base font size for everything */ 
 }
 
 /* Here we are the header, main, and footer */
+
 header, main, footer {
-	width: 855px;
+	width: 100%;
 }
 header .container, main .container, footer .container {
 	max-width: 855px;
@@ -16,12 +17,14 @@ header .container, main .container, footer .container {
 }
 
 /* the head */
-header h1 {
+
+h1 {
 	color: maroon;
-	text-align: center;
+	text-align: left;
 	font-family: xx-large;
 	float: left;
-	width: 570px
+	width: 554px;
+	margin-left: 0.5em;
 }
 
 main {
@@ -32,8 +35,10 @@ main {
 
 h2 {
 	font-size: x-large;
-	text-align: center;
-	
+	text-align: left;
+	margin-left: 1em;
+    width: 50%;
+    float: left	
 }
 
 ol {
@@ -43,11 +48,12 @@ ol {
 main li {
 	font-weight: bold;
 }
+
 /* here we are styling the paragraph */
+
 main p {
 	font-size: large;
 	color: gray;
-	padding: 10px;
 	width: 390px;
 	margin-top: 1px;
 	margin-bottom: 1px;
@@ -64,16 +70,11 @@ header nav {
 	margin-top: 5px;
 }
 img {
-	width: 333.5px;
-	float: right;
-	height: 327px;
-	display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+	width: 38%;
 	margin-right: 1em;
+	margin-left: 1em;
 }
 footer {
-	width: 855px;
 	margin-top: 0.2em;
 	float: left;
 	height: 180px;
@@ -83,14 +84,12 @@ div .contact {
 	width: 50%;
     float: left;
 	height: 180px;
-	font-size: 1.17em;
 }
 
 div .sitemap {
 	width: 50%;
     float: right;
 	height: 180px;
-	font-size: 1.17em;
 }
 div .left {
 	float: left;
@@ -105,25 +104,18 @@ h3 {
 	margin-left: 20px;
 }
 ul {
-	margin-top: 0px;
 	list-style: none;
 }
 a {
 	text-decoration: none;
 }
 footer p {
-	padding: 0px;
-	margin: 0px;
 	margin-left: 20px;
-	border-left: 2px;
-	font-size: 20px;	
+	border-left: 2px;	
 }   
 footer li {
-	padding: 0px;
-    margin: 0px;
     margin-left: 20px;
     border-left: 2px;
-    font-size: 20px;
 }
 
 
