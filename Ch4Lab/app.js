@@ -1,8 +1,8 @@
-"use strict";
-
-var main = function() { 
-	var hello = "hello world var";
-	window.alert(hello);
+var main = function() {	
+	"use strict";
+	
+	var hello = "hello world";
+	window.alert("hello world!");
 };
 
-$(document).ready( main );
+$(document).ready(main);
