@@ -1,4 +1,9 @@
 * {
  margin: 0;
  padding: 0;
+ background-color: #C2D3E1;
+}
+
+h1 {
+	font-size-adjust: 100%;
 }
